@@ -33,6 +33,8 @@ export default function Home() {
       setBusinessList(resp.businessLists);
     })
   }
+
+
   return (
    <div>
     <Hero/>
