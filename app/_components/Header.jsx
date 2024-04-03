@@ -12,6 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { LogOut } from 'lucide-react'
+import Link from 'next/link'
 
 const Header = () => {
   const {data} = useSession();
@@ -46,7 +47,11 @@ const Header = () => {
   <DropdownMenuContent>
     <DropdownMenuLabel>My Account</DropdownMenuLabel>
     <DropdownMenuSeparator />
-    <DropdownMenuItem>My Booking</DropdownMenuItem>
+    <DropdownMenuItem>
+      <Link href={'/mybooking'}>
+      My Booking
+      </Link>
+      </DropdownMenuItem>
     <DropdownMenuItem onClick={()=>signOut()}>Logout</DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>
