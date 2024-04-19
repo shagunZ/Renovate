@@ -46,7 +46,7 @@ const SuggestedBList = ({business}) => {
             <Link href={'/details/'+business.id} className="flex gap-2 mb-4
             hover:border rounded-lg p-2
             cursor-pointer hover:shadow-md
-             border-primary">
+             border-primary" key={index}>
                 <Image src={business?.images[0].url}
                 alt={business.name}
                 width={80}
