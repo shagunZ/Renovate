@@ -27,8 +27,12 @@ const Header = () => {
         <Image src='/logo.svg' alt='logo' 
         width={100} height={60}/>
     <div className='md:flex items-center gap-6 hidden'>
+    <Link href={'/'}>
         <h2 className='hover:scale-105 hover:text-primary cursor-pointer'>Home</h2>
+      </Link>  
+      <Link href={'/search/CarWash'}>
         <h2 className='hover:scale-105 hover:text-primary cursor-pointer'>Services</h2>
+      </Link>
         <h2 className='hover:scale-105 hover:text-primary cursor-pointer'>About Us</h2>
     </div>
         </div>

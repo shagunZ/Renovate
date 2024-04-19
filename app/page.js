@@ -40,7 +40,7 @@ export default function Home() {
     <Hero/>
     <CategoryList categoryList = {categoryList}/>
     <BusinessList businessList = {businessList}
-    title={"popular"}/>
+    title={"Services"}/>
    </div>
   );
 }
