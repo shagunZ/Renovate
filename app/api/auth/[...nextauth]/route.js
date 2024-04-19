@@ -2,6 +2,7 @@ import NextAuth from "next-auth/next";
 
 
 const authOptions = {
+    secret: process.env.NEXTAUTH_SECRET, 
     providers: [
     {
         id: "descope",
