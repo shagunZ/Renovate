@@ -11,7 +11,7 @@ const authOptions = {
         authorization: { params: { scope: "openid email profile" } },
         idToken: true,
         clientId: "P2dltxdMrjkkfvCE3YM46H6sa8WH",
-        clientSecret: "<Descope Access Key>",
+        clientSecret: "mysecret",
         checks: ["pkce", "state"],
         profile(profile) {
             return {
@@ -44,7 +44,7 @@ const authOptions = {
                         headers: {"Content-Type": "application/x-www-form-urlencoded"},
                         body: new URLSearchParams({
                             client_id: "P2dltxdMrjkkfvCE3YM46H6sa8WH",
-                            client_secret: "<Descope Access Key>",
+                            client_secret: "mysecret",
                             grant_type: "refresh_token",
                             refresh_token: token.refresh_token,
                         }),
