@@ -1,4 +1,4 @@
-
+# Renovate
 
 Renovate is a robust web application designed to provide home services and repair works to users in their nearest locality. The platform offers a variety of services across different categories, allowing users to select the service they require and book appointments conveniently. Renovate also includes features for managing booked and completed services, ensuring a seamless experience for users. Gone are the days of endless phone calls and confusing appointment scheduling. Renovate is designed to simplify the process of finding, booking, and managing home services, all from the comfort of your fingertips.
 
